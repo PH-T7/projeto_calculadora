@@ -7,11 +7,21 @@ public class TesteCalculadora {
         Calculadora calc = new Calculadora();
         
         // Testes rápidos
-        calc.calc(2, 3, "+"); // esperando: 5
-        calc.calc(10, 4, "-"); // esperando: 6
-        calc.calc(3, 5, "*"); // esperando: 15
-        calc.calc(8, 2, "/"); // esperando: 4
-        calc.calc(8, 0, "/"); // divisão por zero
-        calc.calc(5, 5, "x"); // operação inválida
+        System.out.println(calc.calcular(2 , 3, "+"));
+        System.out.println(calc.calcular(10 , 4, "-"));
+        System.out.println(calc.calcular(3 , 5, "*"));
+        System.out.println(calc.calcular(8 , 2, "/"));
+        
+        try {
+            System.out.println(calc.calcular(8, 0,  "/")); // exceção
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        }
+        
+        try {
+            System.out.println(calc.calcular(5, 0, "/")); // exceção
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
