@@ -18,7 +18,7 @@ da classe `TesteCalculadora´
 demonstrando o sucesso nas
 operações e a captura correta das exceções:
 
-(resultado_teste.png)
+resultado_teste.png
 
 
 ## Tecnologias
