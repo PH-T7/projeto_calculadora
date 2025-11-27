@@ -18,8 +18,8 @@ da classe `TesteCalculadora´
 demonstrando o sucesso nas
 operações e a captura correta das exceções:
 
-Codigo:![Resultado do Teste]
-(resultado_teste.png)
+<img src="resultado_teste.png" alt="Resultado">
+
 
 
 ## Tecnologias
