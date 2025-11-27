@@ -18,7 +18,7 @@ da classe `TesteCalculadora´
 demonstrando o sucesso nas
 operações e a captura correta das exceções:
 
-<img src="resultado_teste.png" alt="Resultado">
+<img src="resultado_teste2.png" alt="Resultado">
 
 
 
